@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Catlin: Модуль 2</string>
+    <string name="compose_description">Jetpack Compose — это современный набор инструментов от Google для создания нативных интерфейсов Android с использованием декларативного подхода.</string>
+</resources>
