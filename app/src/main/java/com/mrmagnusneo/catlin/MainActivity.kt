@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
                 Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp)) {
                     Text("Модуль 2 — Kotlin / Compose", style = MaterialTheme.typography.headlineSmall)
                     if (task == 0) {
-                        (1..8).forEach { n ->
+                        (1..10).forEach { n ->
                             OutlinedButton(onClick = { task = n }, modifier = Modifier.fillMaxWidth()) {
                                 Text("Задание $n")
                             }
@@ -57,6 +57,8 @@ class MainActivity : ComponentActivity() {
                             6 -> CircleExamples()
                             7 -> LayoutExamples()
                             8 -> WaterTracker()
+                            9 -> Text("UI-тесты находятся в app/src/androidTest. Запустите WaterTrackerTest через Android Studio.")
+                            10 -> ShoppingCart()
                         }
                     }
                 }
