@@ -17,10 +17,12 @@
 | 7 | Компоновка элементов с помощью Column и Row |
 | 8 | Счётчик потребления воды |
 | 9 | UI-тесты счётчика потребления воды |
+| 10 | Корзина товаров: расчёт суммы и корректная рекомпозиция |
 
 ## Структура проекта
 
-- `app/src/main/java/com/mrmagnusneo/catlin/MainActivity.kt` — интерфейсы заданий 1–8.
+- `app/src/main/java/com/mrmagnusneo/catlin/MainActivity.kt` — интерфейсы заданий 1–8 и меню заданий.
+- `app/src/main/java/com/mrmagnusneo/catlin/ShoppingCart.kt` — корзина товаров (задание 10).
 - `app/src/main/res/` — строковые и графические ресурсы.
 - `app/src/androidTest/java/com/mrmagnusneo/catlin/WaterTrackerTest.kt` — UI-тесты задания 9.
 
